@@ -9,6 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.engine.DiskCacheStrategy
 
 class PokemonAdapter(
     private val context: Context,
@@ -43,6 +44,8 @@ class PokemonAdapter(
         // Load PNG from assets using Glide
         Glide.with(context)
             .load("file:///android_asset/${pokemon.image}")
+            .skipMemoryCache(true)
+            .diskCacheStrategy(DiskCacheStrategy.NONE)
             .into(holder.image)
 
         // Apply colour based on primary type (First type if dual)

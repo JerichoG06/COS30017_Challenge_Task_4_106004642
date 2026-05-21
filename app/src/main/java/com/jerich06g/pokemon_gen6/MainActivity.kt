@@ -154,7 +154,7 @@ class MainActivity : AppCompatActivity() {
         panelName.text = pokemon.name
         panelType.text = "Type: ${pokemon.type}"
         panelEvo.text = "EVO: ${pokemon.evoLevel}"
-        panelLocation.text = "Location: ${pokemon.location}"
+        panelLocation.text = "Where To Find: ${pokemon.location}"
 
         // Show views and animate panel sliding up from below screen
         scrimView.visibility = View.VISIBLE
