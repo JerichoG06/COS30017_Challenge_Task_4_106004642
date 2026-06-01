@@ -7,20 +7,17 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Pokemon_gen6">
+        android:theme="@style/Theme.Gote">
 
         <!-- MainActivity is the entry point -->
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.home.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- SavedActivity must be declared or the app crashes when launched -->
-        <activity android:name=".SavedActivity" />
 
     </application>
 
