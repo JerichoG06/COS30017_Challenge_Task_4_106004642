@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@color/gote_light_green"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp">
 
-</com.google.android.material.card.MaterialCardView>
+    <TextView
+        android:id="@+id/tvCourseName"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="12dp"
+        android:textColor="@color/gote_dark_green"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gote_dark_green"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvHoleCount"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gote_dark_green"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvPlayerScores"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gote_dark_green"
+        android:gravity="center" />
+
+    <ImageButton
+        android:id="@+id/btnFavourite"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@android:drawable/btn_star_big_off"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Favourite" />
+
+    <ImageButton
+        android:id="@+id/btnDelete"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@android:drawable/ic_menu_delete"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Delete" />
+
+</LinearLayout>

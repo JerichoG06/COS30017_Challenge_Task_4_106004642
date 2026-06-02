@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App base colours -->
-    <color name="red_200">#e00422</color>
-    <color name="red_500">#ba041d</color>
-    <color name="red_700">#800112</color>
-
-    <color name="teal_200">#03DAC5</color>
-    <color name="teal_700">#018786</color>
-
-    <color name="black">#000000</color>
+    <color name="gote_dark_green">#0C5604</color>
+    <color name="gote_light_green">#E1FF8F</color>
     <color name="white">#FFFFFF</color>
-
-    <!-- Pokemon type colours - used to tint card backgrounds -->
-    <color name="type_normal">#98a1a3</color>
-    <color name="type_fire">#eb1539</color>
-    <color name="type_water">#068dcc</color>
-    <color name="type_grass">#239e10</color>
-    <color name="type_electric">#fcc80a</color>
-    <color name="type_ice">#43b7c4</color>
-    <color name="type_fighting">#bf6204</color>
-    <color name="type_poison">#762378</color>
-    <color name="type_ground">#c9a04d</color>
-    <color name="type_flying">#9286fc</color>
-    <color name="type_psychic">#e815b7</color>
-    <color name="type_bug">#94bf37</color>
-    <color name="type_rock">#9c9540</color>
-    <color name="type_ghost">#4d3e7a</color>
-    <color name="type_dragon">#6334d1</color>
-    <color name="type_dark">#594132</color>
-    <color name="type_steel">#b6b9ba</color>
-    <color name="type_fairy">#e88bdf</color>
-    <color name="type_unknown">#30f2ab</color>
+    <color name="black">#000000</color>
+    <color name="teal_700">#018786</color>
+    <color name="gote_add_hole">#9E62674B</color>
 </resources>

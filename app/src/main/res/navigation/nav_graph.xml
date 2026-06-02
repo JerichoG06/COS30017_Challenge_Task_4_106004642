@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.jerich06g.Gote.ui.home.HomeFragment"
+        android:label="Home" >
+        <action
+            android:id="@+id/action_home_to_activeRound"
+            app:destination="@+id/activeRoundFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/activeRoundFragment"
+        android:name="com.jerich06g.Gote.ui.round.ActiveRoundFragment"
+        android:label="New Round" />
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.jerich06g.Gote.ui.history.HistoryFragment"
+        android:label="Round History" />
+
+    <fragment
+        android:id="@+id/favouritesFragment"
+        android:name="com.jerich06g.Gote.ui.favourites.FavouritesFragment"
+        android:label="Favourite Rounds" />
 
 </navigation>

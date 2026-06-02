@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- This item appears as an icon in the top-right toolbar
-         showAsAction="always" forces it to always be visible -->
     <item
-        android:id="@+id/action_saved"
-        android:icon="@android:drawable/ic_menu_save"
-        android:title="Saved"
-        app:showAsAction="always" />
+        android:id="@+id/homeFragment"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/historyFragment"
+        android:title="Round History" />
+
+    <item
+        android:id="@+id/favouritesFragment"
+        android:title="Favourite Rounds" />
+
 </menu>
